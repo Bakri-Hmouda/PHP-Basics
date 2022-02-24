@@ -24,7 +24,19 @@ echo "Hello, I'm ".$name.", I'm a ".$position." at codi.tech please check my git
 echo "Hello, I'm $name, I'm a $position at codi.tech please check my github link https://$gitHubLink\n";
 
 echo 'Hello, I\'m '.$name.', I\'m a '.$position.'at coodi.tech please check my github link https://'.$gitHubLink,"\n";
-echo 'Hello, I\'m ',$name,', I\'m a ',$position,'at coodi,tech please check my github link https://',$gitHubLink;
+echo 'Hello, I\'m ',$name,', I\'m a ',$position,'at coodi,tech please check my github link https://',$gitHubLink,"\n";
+
+# step 5
+
+$course_name= "full stack developer";
+$enrolled_students= 35;
+$price=199.99;
+$on_discount= false;
+
+echo "Course title: $course_name\n";
+echo "Enrolled Students: $enrolled_students\n";
+echo "Course price: $price $ USD\n";
+echo "Course on discount: " ,$on_discount ? "yes\n" : "no\n";
 
 
 ?>
