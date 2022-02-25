@@ -4,11 +4,7 @@
 
 echo "Search on how to enable PHP Errors\n";
 
-# step 3
-$name = 'Bakri';
-$email = 'bakri.hmouda@gmail.com';
 
-echo "My name is $name and my email is $email\n";
 
 $height = 10;
 $width = 10;
@@ -16,15 +12,6 @@ $area = $height * $width;
 
 echo "area is: $area\n";
 
-# step 4
-$position = "trainee";
-$gitHubLink = "github.com";
-
-echo "Hello, I'm ".$name.", I'm a ".$position." at codi.tech please check my github link https://".$gitHubLink."\n";
-echo "Hello, I'm $name, I'm a $position at codi.tech please check my github link https://$gitHubLink\n";
-
-echo 'Hello, I\'m '.$name.', I\'m a '.$position.'at coodi.tech please check my github link https://'.$gitHubLink,"\n";
-echo 'Hello, I\'m ',$name,', I\'m a ',$position,'at coodi,tech please check my github link https://',$gitHubLink,"\n";
 
 # step 5
 
@@ -38,24 +25,14 @@ echo "Enrolled Students: $enrolled_students\n";
 echo "Course price: $price $ USD\n";
 echo "Course on discount: " ,$on_discount ? "yes\n" : "no\n";
 
-# step 6
-
-function calculateArea ($height, $width){
-    echo "Area is:", $height * $width,"\n";
-};
-calculateArea(5,3);
-
-
+# step 7
 $birth_year = 1990;
 $current_year = 2022;
 if(($current_year-$birth_year) > 18){
-    echo " you can drive ";
+    echo "you can drive\n ";
 } else {
-    echo "You still a kid, go and play GTA";
+    echo "You still a kid, go and play GTA\n";
 };
-
-
-
 
 
 
